@@ -5,7 +5,7 @@ import "./Header.css";
 const Header = () => {
     return (
         <nav>
-            <ul className='d-flex list-style justify-content-center fw-bold fs-5'>
+            <ul className='d-flex list-style justify-content-center navbar fw-bold fs-5'>
                 <CustomLink to="/"><li>HOME <hr /></li></CustomLink>
                 <CustomLink to="reviews"><li>REVIEWS<hr /></li></CustomLink>
                 <CustomLink to="dashboard"><li>DASHBOARD<hr /></li></CustomLink>
@@ -13,7 +13,9 @@ const Header = () => {
                 <CustomLink to="about"><li>ABOUT<hr /></li></CustomLink>
 
             </ul>
+
         </nav>
+
     );
 };
 

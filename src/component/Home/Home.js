@@ -32,7 +32,7 @@ const Home = () => {
                             <button className='p-3'>Live demo</button>
                         </div>
                         <div className='col-md-6 '>
-                            <img className='home-img' src={bikePic} alt="" />
+                            <img className="img-fluid" src={bikePic} alt="" />
                         </div>
                     </div>
                 </section>
