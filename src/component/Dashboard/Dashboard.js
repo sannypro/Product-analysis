@@ -1,9 +1,13 @@
-import React from 'react';
+
+import Chart from '../Charts/Chart';
+
 
 const Dashboard = () => {
+
+
     return (
         <div>
-            this is dashboard
+            <Chart />
         </div>
     );
 };
