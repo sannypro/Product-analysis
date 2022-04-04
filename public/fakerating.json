@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Sanny",
+        "comment": "nice bike",
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name": "Rimel",
+        "comment": "Afforable bike. Smooth engine",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "name": "Tomal",
+        "Comment": "Very Good Bike",
+        "rating": 4.7
+    },
+    {
+        "id": 4,
+        "name": "Rohan",
+        "Comment": "Awesome Bike",
+        "rating": 4
+    },
+    {
+        "id": 5,
+        "name": "Hasan",
+        "Comment": "Amazing Bike",
+        "rating": 4.3
+    },
+    {
+        "id": 6,
+        "name": "Rabbi",
+        "Comment": "Outstanding bike",
+        "rating": 5
+    }
+]

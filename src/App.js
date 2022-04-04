@@ -6,20 +6,26 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './component/Home/Home';
 import Reviews from "./component/Reviews/Reviews";
 import Dashboard from "./component/Dashboard/Dashboard"
-import PageNotFound from './PageNotFound/PageNotFound';
+import NotFound from "./NotFound/NotFound"
+import { createContext, useState } from 'react';
+export const ReviewsContext = createContext();
 
 function App() {
+  const [reviews, setReviews] = useState([])
+
   return (
-    <div>
+
+    <ReviewsContext.Provider value={[reviews, setReviews]}>
       <Header />
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/home' element={<Home />}></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
-        <Route path='*' element={<PageNotFound />}></Route>
+        <Route path='*' element={<NotFound />}></Route>
       </Routes>
-    </div>
+    </ReviewsContext.Provider>
+
   );
 }
 
