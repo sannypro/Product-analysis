@@ -8,6 +8,7 @@ import Reviews from "./component/Reviews/Reviews";
 import Dashboard from "./component/Dashboard/Dashboard"
 import NotFound from "./NotFound/NotFound"
 import { createContext, useState } from 'react';
+import Blogs from "./component/Blogs/Blogs"
 export const ReviewsContext = createContext();
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/home' element={<Home />}></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
+        <Route path="/blogs" element={<Blogs />}></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
     </ReviewsContext.Provider>
