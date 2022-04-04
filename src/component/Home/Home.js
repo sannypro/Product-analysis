@@ -43,7 +43,7 @@ const Home = () => {
                     </div>
 
                 </div>
-                <div className='button-div mt-4 mb-5'>
+                <div className='button-div mt-4 h-100 mb-5'>
                     <Link to="reviews"> <button className='  mt-4 see-all position-absolute top-50 start-50 px-4 translate-middle btn mb-4'>See all reviews</button></Link>
                 </div>
 
