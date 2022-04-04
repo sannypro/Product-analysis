@@ -14,25 +14,25 @@
     {
         "id": 3,
         "name": "Tomal",
-        "Comment": "Very Good Bike",
+        "comment": "Very Good Bike",
         "rating": 4.7
     },
     {
         "id": 4,
         "name": "Rohan",
-        "Comment": "Awesome Bike",
+        "comment": "Awesome Bike",
         "rating": 4
     },
     {
         "id": 5,
         "name": "Hasan",
-        "Comment": "Amazing Bike",
+        "comment": "Amazing Bike",
         "rating": 4.3
     },
     {
         "id": 6,
         "name": "Rabbi",
-        "Comment": "Outstanding bike",
+        "comment": "Outstanding bike",
         "rating": 5
     }
 ]

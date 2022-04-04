@@ -7,16 +7,16 @@ import Home from './component/Home/Home';
 import Reviews from "./component/Reviews/Reviews";
 import Dashboard from "./component/Dashboard/Dashboard"
 import NotFound from "./NotFound/NotFound"
-import { createContext, useState } from 'react';
+import About from "./component/About/About"
 import Blogs from "./component/Blogs/Blogs"
-export const ReviewsContext = createContext();
+
 
 function App() {
-  const [reviews, setReviews] = useState([])
+
 
   return (
 
-    <ReviewsContext.Provider value={[reviews, setReviews]}>
+    <>
       <Header />
       <Routes>
         <Route path='/' element={<Home />}></Route>
@@ -24,9 +24,10 @@ function App() {
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
         <Route path="/blogs" element={<Blogs />}></Route>
+        <Route path='/about' element={<About />}></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
-    </ReviewsContext.Provider>
+    </>
 
   );
 }

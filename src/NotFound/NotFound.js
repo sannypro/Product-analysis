@@ -1,4 +1,5 @@
 import React from 'react'
+import CustomLink from '../component/CustomLink/CustomLink'
 
 const NotFound = () => {
   return (
@@ -14,9 +15,9 @@ const NotFound = () => {
           <p className=''>
             You might have the wrong address, or the page may have moved.
           </p>
-          <button className='me-4 p-3'>
+          <CustomLink to="/"><button className='me-4 p-3'>
             Back to homepage
-          </button>
+          </button></CustomLink>
           <button className='p-3'>
             Contact us
           </button>
